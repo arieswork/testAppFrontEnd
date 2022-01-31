@@ -1,0 +1,20 @@
+<div class="movie_table_con">
+<h2>Movie table component</h2>
+
+<div class="movieList_table">
+  <div class="movieList_header">
+    <span class="movieList_cell">Movie Name</span>
+    <span class="movieList_cell">Genre</span>
+    <span class="movieList_cell">Year</span>
+    <span class="movieList_cell"></span>
+  </div>
+  <div class="movieList_rowGroup" *ngFor="let movie of movieList">
+    <div class="row">
+      <span class="movieList_cell">{{movie.movieName}}</span>
+      <span class="movieList_cell">{{movie.genre}}</span>
+     <span class="movieList_cell">{{movie.year}}</span>
+     <span class="movieList_cell"><a class="l-movielist-list" (click)="SelectMovie(movie.movieName)">Select</a></span>
+    </div>
+  </div>
+</div>
+</div>

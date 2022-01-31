@@ -1,0 +1,20 @@
+.movieList_table {
+    display:table;
+    border: 2px solid blue;
+}
+.movieList_header {
+    display:table-header-group;
+    font-weight:bold;
+    border: 2px solid red;
+}
+.movieList_rowGroup {
+    display:table-row-group;
+}
+.row {
+    display:table-row;
+    border: 2px solid royalblue;
+}
+.movieList_cell {
+    display:table-cell;
+    width:25%;
+}

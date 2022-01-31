@@ -1,0 +1,15 @@
+.header {
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding:0;
+    margin: 0;
+}
+
+.nav {
+    font-family: monospace;
+    font-size: 10px;
+    text-align: right;
+}

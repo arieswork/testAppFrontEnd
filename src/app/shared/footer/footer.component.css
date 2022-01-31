@@ -1,0 +1,9 @@
+.footer {
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
