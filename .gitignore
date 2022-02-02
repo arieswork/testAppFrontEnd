@@ -46,6 +46,3 @@ Thumbs.db
 
 .editorconfig
 package-lock.json
-.angular-cli.json
-tsconfig.json
-tslint.json
